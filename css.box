@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Box-Sizing</title>
+    <style>
+        #box {
+            width: 500px;
+            border: 100px solid black;
+            padding: 150px;
+            box-sizing: content-box; /* Total width = width + padding + border */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Yahoo Baba : Box-Sizing</h1>
+
+    <div id="box">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit dolor, ornare vel.
+    </div>
+</body>
+</html>
